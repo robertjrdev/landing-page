@@ -1,9 +1,36 @@
 .hero {
     background-color: #1f2937;
     height: 100vh;
+    padding-top: 15px;
+}
+
+.hero-container {
+    width: 80%;
+    margin: auto;
 }
 
 .header-head {
     display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-left: 2rem;
+}
+
+a{
+    color: #e5e7eb;
     
 }
