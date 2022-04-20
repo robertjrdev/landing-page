@@ -6,6 +6,10 @@ body {
     line-height: 1.5;
 }
 
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -53,9 +57,40 @@ img {
 .header {
     background-color: #a09e9e36;
 }
-
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 400px;
 }
+
+.header img {
+    max-width: 450px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.header p {
+   padding-right: 1rem;
+}
+
+.header button {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #DC2F02;
+    margin-top: .5rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
+.header button:hover {
+    color: #03071E;
+    box-shadow: 0px 0px 42px -15px rgba(255,255,255,0.79);
+    -webkit-box-shadow: 0px 0px 42px -15px rgba(255,255,255,0.79);
+    -moz-box-shadow: 0px 0px 42px -15px rgba(255,255,255,0.79);
+} 
