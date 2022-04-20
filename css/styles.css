@@ -59,7 +59,7 @@ img {
 }
 
 .navbar a:hover {
-    color: #E85D04;
+    color: #081C15;
 } 
 
 .header {
@@ -132,4 +132,26 @@ img {
     justify-content: center;
     text-align: center;
     height: 100%;
+}
+
+.reviews {
+    background-color: #40916C;
+}
+
+.reviews .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.reviews h3 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.reviews p, h3 {
+    margin: 0 8rem;
 }
